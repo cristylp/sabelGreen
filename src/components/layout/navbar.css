@@ -1,0 +1,11 @@
+.color-navbar {
+    background-color: #E9E9E9;
+}
+
+.font {
+    padding-top: 20px;
+    margin-left: 15px;
+    font-size: large;
+    color: #414141   /* No me sale el color */
+}
+
