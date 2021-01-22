@@ -13,31 +13,31 @@ export default function Cards() {
         <>
             <div className='bg-color'>
                 <Row>
-                    <Col md={{ span: 4, offset: 4 }}>
-                        <Card className='info-card' style={{ width: '40rem' }}>
+                    <Col md={{ span: 4, offset: 1 }}>
+                        <Card className='info-card' style={{ width: '70rem' }}>
                             <div>
-                                <Card.Img variant="top" src={hands} />
+                                <Card.Img variant="top" src={hands} alt='handshake' />
                                 <Card.Body>
                                     <Card.Title>+50 años</Card.Title>
-                                    <Card.Text>de experiencia agregada</Card.Text>
+                                    <Card.Text>de experiencia <br /> agregada</Card.Text>
                                 </Card.Body>
                             </div>
                             <div>
-                                <Card.Img variant="top" src={battery} />
+                                <Card.Img variant="top" src={battery} alt='battery img' />
                                 <Card.Body>
                                     <Card.Title>+500 MW</Card.Title>
                                     <Card.Text>en desarrollo</Card.Text>
                                 </Card.Body>
                             </div>
                             <div>
-                                <Card.Img variant="top" src={construction} />
+                                <Card.Img variant="top" src={construction} alt='construction tower' />
                                 <Card.Body>
                                     <Card.Title>+10 proyectos</Card.Title>
                                     <Card.Text>en marcha</Card.Text>
                                 </Card.Body>
                             </div>
                             <div>
-                                <Card.Img variant="top" src={world} />
+                                <Card.Img variant="top" src={world} alt='world img' />
                                 <Card.Body>
                                     <Card.Title>Internacional</Card.Title>
                                     <Card.Text>con oficinas en <br /> España y México</Card.Text>
