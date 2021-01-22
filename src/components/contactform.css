@@ -1,0 +1,15 @@
+.contactform{
+  background: #173F35;
+  width:50vw;
+  margin:auto;
+}
+
+.placeholder{
+  background: rgb(39, 101, 85, 44%);
+  border: 1px solid rgb(39, 101, 85, 44%);
+  color: white;
+}
+
+.contactrow{
+  padding: 10px;
+}
