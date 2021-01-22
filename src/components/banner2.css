@@ -1,16 +1,59 @@
-.banner-text2 {
-    padding-top: 150px;
-    text-align: center;
-    font-size: 24.5px;
-    font-weight: 400;
-    color: black;
-    font-style: bold;
-    opacity: none;
+.card-text2{
+    color: #414141;
 }
 
 .bg-pic2 {
-    /* opacity: 15%; ----- NO ME FUNCIONA */ 
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.bg-pic2::before{
+    content: "";
+    background-image: url(/static/b&w-762cc57ff9a7a118c375d41fe2897e82.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 15%;
+}
+
+.bg-pic2 h1 {
+    padding-top: 160px;
+    text-align: center;
+    font-size: 24.5px;
+    font-weight: 400;
+    color: #414141;
+    font-style: bold;
+}
+
+.info-card2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    padding-top: 190px;
+    color: #414141;
+}
+
+.down{
+   padding-bottom: 110px; 
 }
 
 
+.info-card2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}
 
+.solarBuilding{
+    background-size: cover;
+    width: 100vh;
+}

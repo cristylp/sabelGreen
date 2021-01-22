@@ -5,15 +5,17 @@ import Navigation from "../components/layout/navbar"
 import Header from "../components/banner"
 import Cards from "../components/infoCards"
 import HeaderTwo from "../components/banner2"
+import HeaderTree from "../components/banner3"
+
 
 export default function Home() {
   return (
-    
+
     <>
       <div>
         <Navigation />
       </div>
-    
+
      <div>
         <Header />
       </div>
@@ -24,6 +26,10 @@ export default function Home() {
 
       <div>
         <HeaderTwo />
+      </div>
+
+      <div>
+        <HeaderTree />
       </div>
 
     </>
