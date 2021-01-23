@@ -1,0 +1,38 @@
+.card-text3{
+    color: black;
+    font-weight: 400;
+    padding-bottom: 100px;
+}
+
+.info-card3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: #414141;
+}
+
+.down{
+   padding-bottom: 200px; 
+}
+
+.banner-text4 {
+    padding-top: 90px;
+    padding-bottom: 45px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    color: #414141;
+    font-style: bold;
+    text-decoration: underline; /* no me sale bien */
+}
+
+.info-card3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}

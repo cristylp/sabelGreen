@@ -6,6 +6,8 @@ import Header from "../components/banner"
 import Cards from "../components/infoCards"
 import HeaderTwo from "../components/banner2"
 import HeaderTree from "../components/banner3"
+import HeaderFour from "../components/banner4"
+import HeaderFive from "../components/banner5"
 
 
 export default function Home() {
@@ -30,6 +32,14 @@ export default function Home() {
 
       <div>
         <HeaderTree />
+      </div>
+
+      <div>
+        <HeaderFour />
+      </div>
+
+      <div>
+        <HeaderFive />
       </div>
 
     </>
