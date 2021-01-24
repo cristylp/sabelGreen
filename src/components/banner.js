@@ -2,7 +2,6 @@ import React from "react"
 import "./banner.css"
 
 import { Container } from 'react-bootstrap'
-import banner from './../components/images/solar-power.jpg'
 
 
 export default function Header() {

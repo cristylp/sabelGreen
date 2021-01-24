@@ -1,0 +1,46 @@
+.bg-pic3 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.bg-pic3::before{
+    content: "";
+    background-image: url(/static/b&w-762cc57ff9a7a118c375d41fe2897e82.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 15%;
+}
+
+.bg-pic3 h1 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    color: #414141;
+    font-style: bold;
+    text-decoration: underline; /* no me sale bien */
+}
+
+.mainText{
+    font-size: 35px;
+    font-weight: 400;
+    color: #414141;
+    font-style: bold;
+    padding-right: 10px;
+    padding-left: 0px;
+    text-align: right;
+}
+
+.secundaryText{
+    font-size: 16px;
+    font-weight: 350;
+    color: #414141; 
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
