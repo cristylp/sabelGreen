@@ -1,5 +1,5 @@
-.bg-color{
-    background-color: #173f35;
+.background{
+    background-color: #173f35;    
 }
 
 .info-card img {
@@ -13,31 +13,17 @@
     padding-bottom: 10px;
 }
 
-.info-card{
+.icons-card2{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
-
-.card {
-     border: none;
-     text-align: center;
-     padding-top: 40px;
-     padding-bottom: 80px;
-     padding-left: 20px;
-     padding-right: 20px;
-     background-color: #173f35;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 .card-body {
     padding: 0rem;
-}
-
-.card-title, .card-text {
-    color: #E9E9E9;
-    opacity: 0.6;
-    height: 15px;
 }
 
 .card-text {

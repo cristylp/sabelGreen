@@ -1,5 +1,5 @@
 import React from "react"
-import "./infoCards.css"
+import "./icons.css"
 
 import { Card, Col, Row } from 'react-bootstrap'
 import hands from "./../components/images/hands.png"
@@ -11,8 +11,8 @@ import world from "./../components/images/world.png"
 export default function Cards() {
     return (
         <>
-            <div className='bg-color'>
-                <Row>
+            <div>
+                <Row className='background'>
                     <Col md={{ span: 4, offset: 1 }}>
                         <Card className='info-card' style={{ width: '70rem' }}>
                             <div>
