@@ -44,14 +44,14 @@ export default function Home() {
         <HeaderFive />
       </div>
 
-      <div>
-        <CardsTwo />
-      </div>
 
       <div>
         <HeaderSix />
       </div>
 
+      <div>
+        <CardsTwo />
+      </div>
     </>
     
   )
