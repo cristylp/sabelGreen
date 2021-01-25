@@ -11,6 +11,8 @@ import HeaderFive from "../components/banner5"
 import CardsTwo from "../components/icons2"
 import HeaderSix from "../components/banner6"
 import Contactform from "../components/contactform"
+import Map from "../components/map"
+
 
 export default function Home() {
   return (
@@ -34,6 +36,8 @@ export default function Home() {
         <CardsTwo />
 
         <HeaderSix />
+
+        <Map />
 
         <Contactform/>
 
