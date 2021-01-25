@@ -3,7 +3,6 @@
     url('/static/solar-power-2f4e042b0d704bc2e96eb41bf33500a9.jpg');
 }
 
-
 .banner-text {
     padding-top: 165px;
     text-align: center;
@@ -12,3 +11,15 @@
     color: #173f35;
     font-style: bold;
 }
+
+/* @media only screen and (max-width: 768px){
+  .banner-text{
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+   .banner-text{
+    font-size: 25px;
+  }
+} */

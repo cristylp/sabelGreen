@@ -31,12 +31,14 @@ export default function Home() {
 
         <HeaderFive />
 
+
         <CardsTwo />
+
 
         <HeaderSix />
 
         <Contactform/>
-
+    
     </>
 
   )

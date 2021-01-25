@@ -12,8 +12,8 @@ export default function Navigation() {
                 <Navbar.Brand href="#home">
                     <img
                         src={logo}
-                        width="330"
-                        height="100"
+                        width="250"
+                        height="150"
                         className="d-inline-block align-top"
                         alt="Sabel Green logo"
                     />

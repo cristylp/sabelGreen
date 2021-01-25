@@ -9,27 +9,27 @@ export default function CardsTwo() {
             <div className='background'>
                 <Row>
                     <Col md={{ span: 5, offset: 1 }}>
-                        <Card className='icons-card2' style={{ width: '70rem' }}>
+                        <Card className='icons-card2' style={{ width: '75rem' }}>
                             <div>
-                                <Card.Body>
+                                <Card.Body className='paddingRight'>
                                     <Card.Title>+€2Bn</Card.Title>
                                     <Card.Text>Transaccionando en <br /> proyectos fotovoltaicos</Card.Text>
                                 </Card.Body>
                             </div>
                             <div>
-                                <Card.Body>
+                                <Card.Body className='paddingRight'>
                                     <Card.Title>2GW</Card.Title>
                                     <Card.Text>Desarrollados hasta  <br /> Ready to Build</Card.Text>
                                 </Card.Body>
                             </div>
                             <div>
-                                <Card.Body>
+                                <Card.Body className='paddingRight'>
                                     <Card.Title>800MW</Card.Title>
                                     <Card.Text>Desarrollo del mayor  <br /> proyecto fotovoltaico en  <br /> Europa</Card.Text>
                                 </Card.Body>
                             </div>
                             <div>
-                                <Card.Body>
+                                <Card.Body className='paddingRight'>
                                     <Card.Title>+500MW</Card.Title>
                                     <Card.Text>en fase COD (c.€600M <br /> de valor de transacción)</Card.Text>
                                 </Card.Body>
