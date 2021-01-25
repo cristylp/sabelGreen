@@ -6,7 +6,7 @@
 
 .bg-pic3::before{
     content: "";
-    background-image: url(/static/b&w-762cc57ff9a7a118c375d41fe2897e82.jpg);
+    background-image: url(images/b&w.jpg);
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -40,7 +40,7 @@
 .secundaryText{
     font-size: 16px;
     font-weight: 350;
-    color: #414141; 
+    color: #414141;
     padding-left: 30px;
     padding-bottom: 50px;
 }

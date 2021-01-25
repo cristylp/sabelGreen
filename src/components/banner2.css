@@ -11,7 +11,7 @@
 
 .bg-pic2::before{
     content: "";
-    background-image: url(/static/b&w-762cc57ff9a7a118c375d41fe2897e82.jpg);
+    background-image: url(images/b&w.jpg);
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -41,7 +41,7 @@
 }
 
 .down{
-   padding-bottom: 110px; 
+   padding-bottom: 110px;
 }
 
 
