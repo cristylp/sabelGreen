@@ -1,7 +1,27 @@
+.contactbox{
+  background: red;
+  margin-bottom: 400px;
+  overflow: visible;
+  height: 60vh;
+}
+
+.contacttext{
+  color: white;
+  margin:auto;
+  width: 50%;
+  padding-top: 5vh;
+  padding-bottom: 2vh
+}
+
 .contactform{
   background: #173F35;
   width:50vw;
   margin:auto;
+  padding: 60px 30px
+}
+
+.contactrow{
+  padding-bottom: 20px;
 }
 
 .placeholder{
@@ -10,6 +30,27 @@
   color: white;
 }
 
-.contactrow{
-  padding: 10px;
+.placeholder-message{
+  background: rgb(39, 101, 85, 44%);
+  border: 1px solid rgb(39, 101, 85, 44%);
+  color: white;
+  height: 20vh
 }
+
+
+#btn{
+  border:1px solid white;
+  background: #173F35;
+}
+
+@media only screen and (max-width: 900px){
+  .contactform{
+    width: 85vw;
+  }
+
+  .contacttext{
+    width: 85vw;
+  }
+}
+
+

@@ -5,38 +5,37 @@ import { Form, Col, Row, Button } from 'react-bootstrap'
 export default function Contactform() {
     return (
         <>
+        <div className='contactbox'>
+          <div className="contacttext">
+            <h1>Contáctanos-Sabel Green</h1>
+            <p>Direccion, calle, codigo postal..</p>
+            <p>Corrreo electronico</p>
+            <p>(+34) numero de tel</p>
+          </div>
           <div className="contactform">
             <Form method="post" action="https://formspree.io/f/mwkwyqap">
-              <Row className="contactrow">
-                <Col>
-                  <Form.Control placeholder="First name" className="placeholder" />
-                </Col>
-                <Col>
-                  <Form.Control placeholder="Last name" className="placeholder"/>
-                </Col>
-              </Row>
-              <Row className="contactrow">
-                <Col>
-                  <Form.Control placeholder="Email" name="_replyto" className="placeholder"/>
-                </Col>
-                <Col>
-                  <Form.Control placeholder="Tel" className="placeholder"/>
-                </Col>
-              </Row>
-              <Row className="contactrow">
-                <Col>
-                  <Form.Control placeholder="Message" className="placeholder"/>
-                </Col>
-              </Row>
-              <Row className="contactrow">
-                <Col>
-                  <Button variant="primary" type="submit">
-                    submit
-                  </Button>
-                </Col>
-              </Row>
+
+                  <Col className="contactrow">
+                    <Form.Control placeholder="Nombre" className="placeholder" />
+                  </Col>
+
+                  <Col className="contactrow">
+                    <Form.Control placeholder="Email" name="_replyto" className="placeholder"/>
+                  </Col>
+
+                  <Col className="contactrow">
+                    <Form.Control placeholder="Message" className="placeholder-message"/>
+                  </Col>
+
+                  <Col className="contactrow">
+                    <Button id="btn" type="submit">
+                      ENVIAR
+                    </Button>
+                  </Col>
+
             </Form>
           </div>
+        </div>
         </>
     )
 }
