@@ -13,7 +13,6 @@ export default function Cards() {
         <>
             <div>
                 <Row className='background'>
-                    {/* <Col md={{ span: 4, offset: 1 }}> */}
                     <Col>
                         <Card className='info-card' style={{ margin: 'auto', height: '40vh' }}>
                             <div>
