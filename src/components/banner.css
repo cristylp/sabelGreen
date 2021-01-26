@@ -1,6 +1,10 @@
 .bg-pic {
     background-image:linear-gradient(to bottom, rgba(233, 233, 233, 1), rgba(239, 239, 239, 0.72), rgba(255, 255, 255, 0)),
     url('images/solar-power.jpg');
+    height:75vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover
 }
 
 .banner-text {
@@ -20,6 +24,9 @@
 
 @media only screen and (max-width: 600px){
    .banner-text{
-    font-size: 25px;
+    font-size: 30px;
+  }
+  .bg-pic{
+    height:70vh;
   }
 }
