@@ -55,6 +55,9 @@
 }
 
 .solarBuilding{
+    background-image:url('images/hq.jpg');
     background-size: cover;
-    width: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    height: 55vh;
 }

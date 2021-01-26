@@ -33,15 +33,15 @@ export default function Cards() {
                             <div>
                                 <Card.Img variant="top" src={construction} alt='construction tower' />
                                 <Card.Body>
-                                    <Card.Title>+10 proyectos</Card.Title>
-                                    <Card.Text>en marcha</Card.Text>
+                                    <Card.Title>+15 proyectos</Card.Title>
+                                    <Card.Text>en desarrollo</Card.Text>
                                 </Card.Body>
                             </div>
                             <div>
                                 <Card.Img variant="top" src={world} alt='world img' />
                                 <Card.Body>
                                     <Card.Title>Internacional</Card.Title>
-                                    <Card.Text>con oficinas en <br /> España y México</Card.Text>
+                                    <Card.Text>prescencia en<br />España y México</Card.Text>
                                 </Card.Body>
                             </div>
                         </Card>

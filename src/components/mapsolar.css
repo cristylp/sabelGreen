@@ -1,0 +1,15 @@
+.container{
+  height: 80vh;
+}
+
+.second{
+  height:75vh;
+  margin-top: 5vh;
+  object-position: center;
+}
+
+.mapsolar{
+  height: 60vh;
+  width:640px;
+  height:290px
+}
