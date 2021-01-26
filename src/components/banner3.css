@@ -1,6 +1,6 @@
 .bg-pic3 {
     position: relative;
-    height: 100vh;
+    height: 160vh;
     width: 100%;
 }
 
@@ -27,6 +27,18 @@
     text-decoration: underline; /* no me sale bien */
 }
 
+@media only screen and (max-width: 768px){
+  .bg-pic3 h1{
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+   .bg-pic3 h1{
+    font-size: 25px;
+  }
+}
+
 .mainText{
     font-size: 35px;
     font-weight: 400;
@@ -37,10 +49,34 @@
     text-align: right;
 }
 
+@media only screen and (max-width: 768px){
+  .mainText{
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+   .mainText{
+    font-size: 15px;
+  }
+}
+
 .secundaryText{
     font-size: 16px;
     font-weight: 350;
     color: #414141;
     padding-left: 30px;
     padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px){
+  .secundaryText{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+   .secundaryText{
+    font-size: 10px;
+  }
 }

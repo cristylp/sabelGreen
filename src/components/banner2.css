@@ -1,7 +1,3 @@
-.card-text2{
-    color: #173f35;
-    font-weight: 400;
-}
 
 .bg-pic2 {
     position: relative;
@@ -30,13 +26,30 @@
     font-style: bold;
 }
 
+@media only screen and (max-width: 768px){
+  .bg-pic2 h1{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+   .bg-pic2 h1{
+    font-size: 12px;
+  }
+}
+
+.card-text2{
+    color: #173f35;
+    font-weight: 400;
+}
+
 .info-card2{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     background: none;
-    padding-top: 190px;
+    padding-top: 160px;
     color: #414141;
 }
 

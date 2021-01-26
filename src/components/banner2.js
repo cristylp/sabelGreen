@@ -16,10 +16,9 @@ export default function HeaderTwo() {
             <div className="bg-pic2">
                 <Container>
                     <h1 className='banner-text2'>Sabel Green desarrolla, gestiona e invierte en activos de energías renovables en Europa Latinoamérica y África desde la originación hasta la fase operativa. Nuestra estrategia permite minimizar los riesgos asociados al terreno, el desarrollo y la comercialización de los activos, maximizando el valor y la rentabilidad para los inversores. Nuestro modelo de negocio se basa en:</h1>
-                </Container>
                 <Row>
-                    <Col md={{ span: 4, offset: 1 }}>
-                        <Card className='info-card2' style={{ width: '80rem' }}>
+                    <Col>
+                        <Card className='info-card2' style={{ margin: 'auto', height: '60vh' }}>
                             <div>
                                 <Card.Img variant="top" src={tower} alt='cellphone tower' />
                                 <Card.Body>
@@ -47,6 +46,7 @@ export default function HeaderTwo() {
                         </Card>
                     </Col>
                 </Row>
+                </Container>
             </div>
             <div className='solarBuilding'>
             </div>
