@@ -33,7 +33,7 @@ export default function HeaderFour() {
               <Card className="card5">
                 <Card.Img variant="top" src={graph} alt='map img' />
                  <Card.Body>
-                  <Card.Text className='card-text2'>Sabel Green contribuye al desarrollo sostenible del planeta a través de la producción de energía renovables aprovechando recursos naturales seguros, limpios e inagotables.
+                  <Card.Text className='card-text2'>Sabel Green impulsa el cambio de modelo de consumo de energía, contribuyendo a la independencia energética de los consumidores.
                   </Card.Text>
                 </Card.Body>
               </Card>
