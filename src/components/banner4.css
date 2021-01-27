@@ -1,38 +1,129 @@
-.card-text3{
-    color: black;
-    font-weight: 400;
-    padding-bottom: 100px;
-}
-
-.info-card3{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background: none;
-    color: #414141;
-}
-
-.down{
-   padding-bottom: 200px; 
-}
-
-.banner-text4 {
-    padding-top: 90px;
-    padding-bottom: 45px;
+.bannertext2 h2{
+  padding-top: 70px;
+    padding-bottom: 50px;
     text-align: center;
     font-size: 45px;
     font-weight: 400;
     color: #414141;
     font-style: bold;
-    text-decoration: underline; /* no me sale bien */
+    text-decoration: underline;
+    margin: auto
 }
 
-.info-card3 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+.cards2{
+  height: 36vh;
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+  padding-top: 6vh;
+}
+
+.bigpic-4{
+  height:70vh;
+  padding-top:2vh;
+}
+
+.card4{
+  border: 0px;
+  width: 20%;
+  align-items: center;
+  text-align: center;
+  height:36vh;
+}
+
+.card4:hover{
+  transform: scale(1.2)
+}
+
+.card4 img{
+  height: auto;
+  width: 5vw;
+  opacity: 100%;
+}
+
+
+.card5{
+  height: 36vh;
+  padding-top: 40px;
+  border: 0px;
+  width: 20%;
+  align-items: center;
+  text-align: center;
+}
+
+.card5 img{
+  height: auto;
+  width: 5vw;
+  opacity: 100%;
+}
+
+.card5:hover{
+ transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1020px){
+
+  .card4{
+    height: 34vh;
+    width: 23%;
+  }
+  .card5{
+    height: 34vh;
+    width: 23%
+  }
+
+  .cards2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+}
+
+@media only screen and (max-width: 845px){
+  .bannertext2{
+    height: 17vh;
+  }
+
+  .bannertext2 h2{
+    font-size: 30px;
+}
+  .cards2{
     height: auto;
-    object-fit: cover;
+    padding-top: 0;
+  }
+
+  .bigpic-4{
+    height:80vh;
+    padding-top:2vh;
+  }
+  .card4{
+    width: 40%;
+    height:26vh;
+    opacity: 70%;
+  }
+  .card4:hover{
+    opacity: 100%
+  }
+  .card4 img{
+    height: auto;
+    width: 10vw;
+    opacity: 100%;
+  }
+
+  .card5{
+    padding-top: 0;
+    width:40%;
+    height: 26vh;
+    opacity: 70%
+  }
+
+  .card5:hover{
+    opacity: 100%;
+  }
+  .card5 img{
+    height: auto;
+    width: 10vw;
+    opacity: 100%;
+  }
 }

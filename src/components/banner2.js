@@ -13,43 +13,60 @@ import hq from './../components/images/hq.jpg'
 export default function HeaderTwo() {
     return (
         <>
-            <div className="bg-pic2">
-                <Container>
-                    <h1 className='banner-text2'>Sabel Green desarrolla, gestiona e invierte en activos de energías renovables en Europa Latinoamérica y África desde la originación hasta la fase operativa. Nuestra estrategia permite minimizar los riesgos asociados al terreno, el desarrollo y la comercialización de los activos, maximizando el valor y la rentabilidad para los inversores. Nuestro modelo de negocio se basa en:</h1>
-                <Row>
-                    <Col>
-                        <Card className='info-card2' style={{ margin: 'auto', height: '60vh' }}>
-                            <div>
-                                <Card.Img variant="top" src={tower} alt='cellphone tower' />
-                                <Card.Body>
-                                    <Card.Text className='card-text2 down'>Ánalisis e identificación <br /> de Sets no evidentes, <br /> considerando las <br /> distintas oportunidades <br /> disponibles en cada <br /> locaclización </Card.Text>
-                                </Card.Body>
-                            </div>
-                            <div>
-                                <Card.Img variant="top" src={map} alt='map img' />
-                                <Card.Body>
-                                    <Card.Text className='card-text2'>Identificación y acuerdo <br /> de terrenos previo al <br /> desarrollo de los <br /> proyectos</Card.Text>
-                                </Card.Body>
-                            </div>
-                            <div>
-                                <Card.Img variant="top" src={grafica} alt='graphic img' />
-                                <Card.Body>
-                                    <Card.Text className='card-text2 down'>Optimización de la <br /> asignación de capital en <br /> cada fase de la inversión <br /> del activo</Card.Text>
-                                </Card.Body>
-                            </div>
-                            <div>
-                                <Card.Img variant="top" src={lupa} alt='magnifying glass img' />
-                                <Card.Body>
-                                    <Card.Text className='card-text2'>Supervisión y <br /> seguimiento operativo y <br /> comercial de cada activo</Card.Text>
-                                </Card.Body>
-                            </div>
-                        </Card>
-                    </Col>
-                </Row>
-                </Container>
+        <div className="bg-pic2">
+          <div className="box2">
+            <div className="bannertext2">
+              <h1>
+               Sabel Green desarrolla, gestiona e invierte en activos de energías renovables en Europa Latinoamérica
+               África desde la originación hasta la fase operativa. Nuestra estrategia permite minimizar los riesgos
+               asociados al terreno, el desarrollo y la comercialización de los activos, maximizando el valor y la
+               rentabilidad para los inversores. Nuestro modelo de negocio se basa en:
+              </h1>
             </div>
+
+            <div class="cards">
+              <Card className="card2">
+                <Card.Img variant="top" src={tower} alt='cellphone tower' />
+                <Card.Body>
+                  <Card.Text className='card-text2 '>
+                    Ánalisis e identificación de Sets no evidentes, considerando las distintas
+                    oportunidades disponibles en cada locaclización </Card.Text>
+                </Card.Body>
+              </Card>
+
+              <Card className="card3">
+                <Card.Img variant="top" src={map} alt='map img' />
+                 <Card.Body>
+                  <Card.Text className='card-text2'>Identificación y acuerdo de terrenos previo al desarrollo de los proyectos
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+
+              <Card className="card3">
+                <Card.Img variant="top" src={grafica} alt='graphic img' />
+                <Card.Body>
+                  <Card.Text className='card-text2 '>Optimización de la asignación de capital en cada fase de la inversión del activo
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+
+              <Card className="card2">
+                <Card.Img variant="top" src={lupa} alt='magnifying glass img' />
+                <Card.Body>
+                  <Card.Text className='card-text2'>Supervisión y seguimiento operativo y comercial de cada activo
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
+          </div>
+
+        </div>
+
+
             <div className='solarBuilding'>
             </div>
         </>
     )
 }
+
+

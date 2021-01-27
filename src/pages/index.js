@@ -1,7 +1,7 @@
 import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import Navigation from "../components/layout/navbar"
+import Navbar from "../components/layout/navbar"
 import Header from "../components/banner"
 import Cards from "../components/icons"
 import HeaderTwo from "../components/banner2"
@@ -14,12 +14,11 @@ import Contactform from "../components/contactform"
 import MapSolar from "../components/mapsolar"
 
 
-export default function Home() {
-  return (
+export default function Home(){
 
-    <>
-
-        <Navigation />
+    return (
+      <div className="App">
+        <Navbar/>
 
         <Header />
 
@@ -33,17 +32,15 @@ export default function Home() {
 
         <HeaderFive />
 
+        <HeaderSix />
 
         <CardsTwo />
-
-
-        <HeaderSix />
 
         <MapSolar />
 
         <Contactform/>
+      </div>
+    );
 
-    </>
-
-  )
 }
+
