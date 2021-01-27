@@ -9,7 +9,7 @@
 
 .bg-pic2::before{
     content: "";
-    background-image: url(images/b&w.jpg);
+    background-image: url('images/b&w.jpg');
     background-size: cover;
     background-position: center;
     position: absolute;
