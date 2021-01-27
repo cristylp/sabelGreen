@@ -29,7 +29,7 @@ export default function HeaderTwo() {
                 <Card.Img variant="top" src={tower} alt='cellphone tower' />
                 <Card.Body>
                   <Card.Text className='card-text2 '>
-                    Ánalisis e identificación de Sets no evidentes, considerando las distintas
+                    Ánalisis e identificación de puntos de conexión no evidentes, considerando las distintas
                     oportunidades disponibles en cada locaclización </Card.Text>
                 </Card.Body>
               </Card>

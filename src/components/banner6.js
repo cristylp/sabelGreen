@@ -2,7 +2,7 @@ import React from "react"
 import "./banner6.css"
 
 import { Row, Col } from 'react-bootstrap'
-import solar from './../components/images/solar-power2.jpg'
+import solarpanel from './../components/images/solarpanel.jpg'
 import ceiling2 from './../components/images/ceiling2.jpg'
 
 
@@ -13,7 +13,7 @@ export default function HeaderSix() {
                 <div className="boxsix">
                     <div className="left">
                       <div md={4} className="leftImg">
-                          <img src={solar} alt="workers lifting solar panels" />
+                          <img src={solarpanel} alt="workers lifting solar panels" />
                       </div>
                     </div>
                     <div className="right">
