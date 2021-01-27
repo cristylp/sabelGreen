@@ -28,7 +28,7 @@ export default class Navbar extends Component {
                 offset={-120}
                 duration={500}
               >
-                Sabel Green
+                Sabel Greenn
               </Link>
             </li>
 
