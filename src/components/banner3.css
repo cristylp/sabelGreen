@@ -1,7 +1,11 @@
 .bg-pic3 {
     position: relative;
-    height: 160vh;
+    height: 100vh;
     width: 100%;
+    opacity: hidden;
+    padding-bottom:5vh;
+    padding-top: 5vh;
+    overflow: hidden;
 }
 
 .bg-pic3::before{
@@ -17,8 +21,8 @@
 }
 
 .bg-pic3 h1 {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 70px;
+    padding-bottom: 50px;
     text-align: center;
     font-size: 45px;
     font-weight: 400;
@@ -27,56 +31,89 @@
     text-decoration: underline; /* no me sale bien */
 }
 
-@media only screen and (max-width: 768px){
-  .bg-pic3 h1{
-    font-size: 35px;
-  }
+.rows{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin:auto;
 }
 
-@media only screen and (max-width: 600px){
-   .bg-pic3 h1{
-    font-size: 25px;
-  }
+.row2{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2vh;
 }
+
 
 .mainText{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
     color: #414141;
     font-style: bold;
-    padding-right: 10px;
-    padding-left: 0px;
-    text-align: right;
+    text-align: end;
+    width: 25%;
+    text-decoration: underline;
 }
 
-@media only screen and (max-width: 768px){
-  .mainText{
-    font-size: 25px;
-  }
-}
-
-@media only screen and (max-width: 600px){
-   .mainText{
-    font-size: 15px;
-  }
-}
 
 .secundaryText{
     font-size: 16px;
     font-weight: 350;
     color: #414141;
-    padding-left: 30px;
-    padding-bottom: 50px;
+    width: 70%
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1110px){
+  .bg-pic3 h1{
+    font-size: 30px
+  }
+  .rows2{
+    display: flex;
+    height: 30vh;
+  }
+  .row2{
+    display: block;
+    width: 50%
+  }
+  .mainText{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height:7vh;
+    font-size: 20px
+  }
   .secundaryText{
-    font-size: 12px;
+    font-size: 13px;
+    width: 90%;
+    text-align: center;
+    margin: auto
   }
 }
 
-@media only screen and (max-width: 600px){
-   .secundaryText{
-    font-size: 10px;
+@media only screen and (max-width: 790px){
+  .bg-pic3{
+    height: 130vh
+  }
+  .bg-pic3 h1{
+    padding-top: 35px;
+    padding-bottom: 14px;
+
+  }
+  .rows2{
+    display: block;
+    height: auto
+  }
+  .row2{
+    width: 100%;
+    padding-top:3vh;
+    padding-bottom: 3vh;
+  }
+  .mainText{
+    height: 4vh;
+  }
+  .backgroundcolor{
+   background-color: rgba(107, 103, 103, 5%);
+   border-radius: 4px;
   }
 }
+

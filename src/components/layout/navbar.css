@@ -9,3 +9,67 @@
     color: #414141   /* No me sale el color */
 }
 
+.nav {
+ background-color: #E9E9E9;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 13vh;
+  z-index: 1000;
+}
+
+.nav-logo {
+  height: 17vh;
+  width: auto;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .nav-content {
+ /* max-width: 900px;*/
+  width:80vw;
+  padding: 0rem 2rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  margin-top: 39px;
+  display: inline;
+  margin-left: 2rem;
+  color: #173F35;
+}
+
+.nav-item a{
+  font-size: 18px;
+  font-weight: 200
+}
+
+.nav-item:hover {
+  color: #173F35;
+  cursor: pointer;
+}
+
+.active{
+  color: #173F35 !important;
+  font-weight: 400 !important
+}
+
+
+@media only screen and (max-width: 1030px){
+  .nav-items{
+    display: none
+  }
+  .nav-logo{
+    height:17vh;
+    width:auto;
+    margin: auto;
+    margin-top: -20px;
+  }
+}
+

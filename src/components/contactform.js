@@ -5,7 +5,7 @@ import { Form, Col, Row, Button } from 'react-bootstrap'
 export default function Contactform() {
     return (
         <>
-        <div className='contactbox'>
+        <div className='contactbox' id="contacto">
           <div className="contacttext">
             <h1>Contáctanos-Sabel Green</h1>
             <p>Direccion, calle, codigo postal..</p>
