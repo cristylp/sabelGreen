@@ -1,24 +1,16 @@
 .bg-pic3 {
     position: relative;
-    height: 100vh;
+    /*height: 100vh;*/
     width: 100%;
-    opacity: hidden;
-    padding-bottom:5vh;
+    /*opacity: hidden;*/
+    padding-bottom:9vh;
     padding-top: 5vh;
     overflow: hidden;
+    background-image:linear-gradient(to bottom, rgba(233, 233, 233, .9), rgba(239, 239, 239, .9), rgba(255, 255, 255, .9)),
+    url('images/b&w.jpg');
+    background-size: cover;
 }
 
-.bg-pic3::before{
-    content: "";
-    background-image: url(images/b&w.jpg);
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 15%;
-}
 
 .bg-pic3 h1 {
     padding-top: 70px;

@@ -63,7 +63,7 @@ export default function HeaderTwo() {
         </div>
 
 
-            <div className='solarBuilding'>
+            <div className='solarBuilding' style={{opacity: '60%'}}>
             </div>
         </>
     )

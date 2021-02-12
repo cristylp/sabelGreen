@@ -1,0 +1,21 @@
+.content{
+  height:4vh;
+  display:flex;
+  background-color: #E9E9E9;
+  position: sticky;
+  top:0;
+}
+
+
+.content a {
+  float:right;
+  margin: auto 3vw auto auto;
+  color:#414141 ;
+}
+
+.content a:hover {
+  float:right;
+  margin: auto 3vw auto auto;
+  color:#173F35;
+  font-weight: 600;
+}

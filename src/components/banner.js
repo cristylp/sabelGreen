@@ -9,9 +9,10 @@ export default function Header() {
         <>
             <div className="bg-pic" fluid>
 
-                    <h1 className='banner-text'>Impulsamos el modelo <br /> energético mundial a uno <br /> 100% sostenible y renovable</h1>
+                    <h1 className='banner-text'>Transformamos el modelo <br /> energético global para ser <br /> 100% sostenible y renovable</h1>
 
             </div>
         </>
     )
 }
+

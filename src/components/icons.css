@@ -24,7 +24,6 @@
 .card1 img{
   height: 40px;
   width: 50px;
-  opacity: 54%;
 }
 
 @keyframes fadeIn {
@@ -54,7 +53,6 @@
 
 .card-title{
   color: #C4C4C4;
-  opacity: 74%;
   font-size: 20px;
   padding-top: 2vh;
   margin: 0;
@@ -62,7 +60,6 @@
 
 .card-text{
   color: #C4C4C4;
-  opacity: 74%;
   font-size: 15px !important;
 }
 

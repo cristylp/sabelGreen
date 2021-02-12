@@ -15,7 +15,7 @@ export default function HeaderFive() {
 
             <div className="bannertext2">
               <h2>
-               Gestión de Activos
+               Optimización energética y autoconsumo
               </h2>
             </div>
 

@@ -14,15 +14,15 @@ export default function Cards() {
           <div className="box" id="cards">
 
               <Card className="card1">
-                <Card.Img variant="top" src={hands} alt='handshake' />
+                <Card.Img variant="top" src={hands} alt='handshake' style={{opacity:'50%'}}/>
                 <Card.Body>
-                  <Card.Title>+50 años</Card.Title>
-                  <Card.Text>de experiencia <br /> agregada</Card.Text>
+                  <Card.Title style={{opacity:'74%'}}>+50 años</Card.Title>
+                  <Card.Text style={{opacity:'74%'}}>de experiencia <br /> agregada</Card.Text>
                 </Card.Body>
               </Card>
 
               <Card className="card1">
-                <Card.Img variant="top" src={battery} alt='battery img' />
+                <Card.Img variant="top" src={battery} alt='battery img' style={{opacity:'50%'}} />
                 <Card.Body>
                   <Card.Title>+500 MW</Card.Title>
                   <Card.Text>en desarrollo</Card.Text>
@@ -30,7 +30,7 @@ export default function Cards() {
               </Card>
 
               <Card className="card1">
-                <Card.Img variant="top" src={construction} alt='construction tower' />
+                <Card.Img variant="top" src={construction} alt='construction tower' style={{opacity:'50%'}} />
                 <Card.Body>
                   <Card.Title>+15 proyectos</Card.Title>
                   <Card.Text>en desarrollo</Card.Text>
@@ -38,10 +38,10 @@ export default function Cards() {
               </Card>
 
               <Card className="card1">
-                <Card.Img variant="top" src={world} alt='world img' />
+                <Card.Img variant="top" src={world} alt='world img' style={{opacity:'50%'}}/>
                 <Card.Body>
                   <Card.Title>Internacional</Card.Title>
-                  <Card.Text>prescencia en<br />España y México</Card.Text>
+                  <Card.Text>presencia en<br />España y México</Card.Text>
                 </Card.Body>
               </Card>
 

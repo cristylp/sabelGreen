@@ -8,9 +8,8 @@ export default function Contactform() {
         <div className='contactbox' id="contacto">
           <div className="contacttext">
             <h1>Contáctanos-Sabel Green</h1>
-            <p>Direccion, calle, codigo postal..</p>
-            <p>Corrreo electronico</p>
-            <p>(+34) numero de tel</p>
+            <p>+34 617 325 903</p>
+            <p>sabelgreen@sabelgreen.com</p>
           </div>
           <div className="contactform">
             <Form method="post" action="https://formspree.io/f/mwkwyqap">

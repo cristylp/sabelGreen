@@ -8,17 +8,19 @@ export default function HeaderTree() {
     return (
         <>
             <div className="bg-pic3" id="areas">
-                    <h1 className='banner-text3'>Desarrollo de proyectos</h1>
+                    <h1 className='banner-text3'>
+                      Desarrollo de proyectos
+                    </h1>
                     <div class="rows">
                       <div class="rows2">
                         <div class="row2 backgroundcolor">
-                          <h2 className='mainText'>Ánalisis especial</h2>
+                          <h2 className='mainText'>Análisis especial</h2>
                           <p className="secundaryText"><b>Análisis del mercado</b>, de la inversión, de los entornos fiscales y de las oportunidades. <br /> <b>Identificación, análisis de prefactibilidad</b> de las localizaciones óptimas y cercanos a las SETs de cada proyecto. <br /> <b>Negociación y acuerdo de terrenos.</b> <br /> <b>Diseño de calendario</b> de proyecto. </p>
                         </div>
 
                         <div class="row2">
                           <h2 className='mainText'>Programación del Desarrollo</h2>
-                          <p className="secundaryText"><b>Constitución de las sociedades</b> específicas de proyecto (SPV) y diseño de la estructura de cada transacción. <br /> <b>Identificaciónde los permisos necesarios</b> dependiendo del país donde se realice. <br /> <b>Diseño de los planes de desarrollo y construcción,</b> definición de presupuestos y definición de calendarios detallados de costes.</p>
+                          <p className="secundaryText"><b>Constitución de las sociedades</b> específicas de proyecto (SPV) y diseño de la estructura de cada transacción. <br /> <b>Identificación de los permisos necesarios</b> dependiendo del país donde se realice. <br /> <b>Diseño de los planes de desarrollo y construcción,</b> definición de presupuestos y definición de calendarios detallados de costes.</p>
                         </div>
                       </div>
 

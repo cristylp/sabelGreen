@@ -38,7 +38,7 @@
 .card4 img{
   height: auto;
   width: 5vw;
-  opacity: 100%;
+  /*opacity: 100%;*/
 }
 
 
@@ -54,7 +54,7 @@
 .card5 img{
   height: auto;
   width: 5vw;
-  opacity: 100%;
+  /*opacity: 100%;*/
 }
 
 .card5:hover{
@@ -100,30 +100,30 @@
   .card4{
     width: 40%;
     height:26vh;
-    opacity: 70%;
+    /*opacity: 70%;*/
   }
   .card4:hover{
-    opacity: 100%
+    /*opacity: 100%*/
   }
   .card4 img{
     height: auto;
     width: 10vw;
-    opacity: 100%;
+    /*opacity: 100%;*/
   }
 
   .card5{
     padding-top: 0;
     width:40%;
     height: 26vh;
-    opacity: 70%
+    /*opacity: 70%*/
   }
 
   .card5:hover{
-    opacity: 100%;
+    /*opacity: 100%;*/
   }
   .card5 img{
     height: auto;
     width: 10vw;
-    opacity: 100%;
+    /*opacity: 100%;*/
   }
 }
