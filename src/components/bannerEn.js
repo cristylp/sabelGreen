@@ -9,7 +9,7 @@ export default function HeaderEn() {
         <>
             <div className="bg-pic" fluid>
 
-                    <h1 className='banner-text'>We transform the global energy <br /> model to be <br /> 100% sustainable and renewable</h1>
+                    <h1 className='banner-text'>We transform the global energy model<br /> to be 100% sustainable and renewable</h1>
 
             </div>
         </>

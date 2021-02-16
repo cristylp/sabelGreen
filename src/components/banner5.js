@@ -20,7 +20,7 @@ export default function HeaderFive() {
             </div>
 
             <div class="cards2">
-              <Card className="card4">
+              <Card className="card4 card-mobile-top card-mobile-left">
                 <Card.Img variant="top" src={factory} alt='cellphone tower' />
                 <Card.Body>
                   <Card.Text className='card-text2 '>
@@ -29,7 +29,7 @@ export default function HeaderFive() {
                 </Card.Body>
               </Card>
 
-              <Card className="card5">
+              <Card className="card5 card-mobile-top card-mobile-right">
                 <Card.Img variant="top" src={piggy} alt='map img' />
                  <Card.Body>
                   <Card.Text className='card-text2'>Reducción de c.80% del coste energético con amortización de inversión en 5 años.
@@ -37,7 +37,7 @@ export default function HeaderFive() {
                 </Card.Body>
               </Card>
 
-              <Card className="card5">
+              <Card className="card5 card-mobile-left">
                 <Card.Img variant="top" src={reuse} alt='graphic img' />
                 <Card.Body>
                   <Card.Text className='card-text2 '> Optimización de procesos energéticos e industriales mediante el desarrollo y la ingeniería de proyectos de autoconsumo.
@@ -45,7 +45,7 @@ export default function HeaderFive() {
                 </Card.Body>
               </Card>
 
-              <Card className="card4">
+              <Card className="card4  card-mobile-right">
                 <Card.Img variant="top" src={graph3} alt='magnifying glass img' />
                 <Card.Body>
                   <Card.Text className='card-text2'>Generación distribuida, reducción de costes operativos y aumento de rentabilidad de inversiones y proyectos.

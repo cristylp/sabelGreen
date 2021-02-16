@@ -20,7 +20,7 @@ export default function HeaderFourEn() {
             </div>
 
             <div class="cards2">
-              <Card className="card4">
+              <Card className="card4 card-mobile-top card-mobile-left">
                 <Card.Img variant="top" src={cloud} alt='cellphone tower' />
                 <Card.Body>
                   <Card.Text className='card-text2 '>
@@ -31,7 +31,7 @@ export default function HeaderFourEn() {
                 </Card.Body>
               </Card>
 
-              <Card className="card5">
+              <Card className="card5 card-mobile-top card-mobile-right">
                 <Card.Img variant="top" src={graph} alt='map img' />
                  <Card.Body>
                   <Card.Text className='card-text2'>
@@ -40,7 +40,7 @@ export default function HeaderFourEn() {
                 </Card.Body>
               </Card>
 
-              <Card className="card5">
+              <Card className="card5 card-mobile-left">
                 <Card.Img variant="top" src={bulb} alt='graphic img' />
                 <Card.Body>
                   <Card.Text className='card-text2 '>
@@ -49,7 +49,7 @@ export default function HeaderFourEn() {
                 </Card.Body>
               </Card>
 
-              <Card className="card4">
+              <Card className="card4 card-mobile-right">
                 <Card.Img variant="top" src={plant} alt='magnifying glass img' />
                 <Card.Body>
                   <Card.Text className='card-text2'>

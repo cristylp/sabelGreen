@@ -1,75 +1,130 @@
-.color-navbar {
-    background-color: #E9E9E9;
+
+.nav-logo{
+  height: 80px;
+  margin:auto;
 }
 
-.font {
-    padding-top: 20px;
-    margin-left: 15px;
-    font-size: large;
-    color: #414141   /* No me sale el color */
+.navbar{
+  background: #e9e9e9;
+  height: 14vh;
 }
 
-.nav {
- background-color: #E9E9E9;
-  position: sticky;
-  top: 0px;
-  width: 100%;
-  height: 13vh;
-  z-index: 1000;
+.nav-items{
+  padding-top: 35px;
 }
 
-.nav-logo {
-  height: 20vh;
-  width: auto;
+.nav-link {
+  color: #173f35 !important;
+  font-weight: 300;
 }
 
-.nav-logo:hover {
+.nav-item :hover{
+  color: #173f35 !important;
+  font-weight:  500 !important;
+}
+
+.languange-link{
+  margin-left: 50px;
+  color: #173f35;
+  font-weight: 300;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background: #e9e9e9;
+    margin-top: 10px;
+    padding: 20px;
+  }
+
+/* Dropdown Button */
+.dropbtn {
+  background-color:#173f35;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /*font-size: 5px;*/
+  font-size: 15px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#e9e9e9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size:15px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #173f35;}
+
+
+
+
+
+.container-menu {
+  display: inline-block;
   cursor: pointer;
 }
 
-.nav .nav-content {
- /* max-width: 900px;*/
-  width:80vw;
-  padding: 0rem 2rem;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
+.bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 2px;
+  background-color: #173f35;
+  margin: 4px 0;
+  transition: 0.4s;
 }
 
-.nav-item {
-  margin-top: 39px;
-  display: inline;
-  margin-left: 2rem;
-  color: #173F35;
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
-.nav-item a{
-  font-size: 18px;
-  font-weight: 200
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
 }
 
-.nav-item:hover {
-  color: #173F35;
-  cursor: pointer;
-}
-
-.active{
-  color: #173F35 !important;
-  font-weight: 400 !important
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
 
-@media only screen and (max-width: 1030px){
-  .nav-items{
-    display: none
-  }
-  .nav-logo{
-    height:17vh;
-    width:auto;
-    margin: auto;
-    margin-top: -20px;
-  }
+.navbar-light .navbar-toggler {
+  color:#173f35;
+  border-color: #173f35;
 }
 
+.navbar-toggler {
+  margin-top:28px !important;
+}

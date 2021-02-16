@@ -1,7 +1,7 @@
 import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import Languages from "../components/layout/languages"
+// import Languages from "../components/layout/languages"
 import Navbar from "../components/layout/navbar"
 import Header from "../components/banner"
 import Cards from "../components/icons"
@@ -20,8 +20,6 @@ export default function Home(){
 
     return (
       <div className="App">
-
-        <Languages/>
 
         <Navbar/>
 

@@ -20,7 +20,7 @@ export default function HeaderFour() {
             </div>
 
             <div class="cards2">
-              <Card className="card4">
+              <Card className="card4 card-mobile-top card-mobile-left">
                 <Card.Img variant="top" src={cloud} alt='cellphone tower' />
                 <Card.Body>
                   <Card.Text className='card-text2 '>
@@ -30,7 +30,7 @@ export default function HeaderFour() {
                 </Card.Body>
               </Card>
 
-              <Card className="card5">
+              <Card className="card5 card-mobile-top card-mobile-right">
                 <Card.Img variant="top" src={graph} alt='map img' />
                  <Card.Body>
                   <Card.Text className='card-text2'>Sabel Green impulsa el cambio de modelo de consumo de energía, contribuyendo a la independencia energética de los consumidores.
@@ -38,7 +38,7 @@ export default function HeaderFour() {
                 </Card.Body>
               </Card>
 
-              <Card className="card5">
+              <Card className="card5 card-mobile-left">
                 <Card.Img variant="top" src={bulb} alt='graphic img' />
                 <Card.Body>
                   <Card.Text className='card-text2 '> Sabel Green contribuye al desarrollo sostenible del planeta a través de la producción de energía renovables aprovechando recursos naturales seguros, limpios e inagotables.
@@ -46,7 +46,7 @@ export default function HeaderFour() {
                 </Card.Body>
               </Card>
 
-              <Card className="card4">
+              <Card className="card4 card-mobile-right">
                 <Card.Img variant="top" src={plant} alt='magnifying glass img' />
                 <Card.Body>
                   <Card.Text className='card-text2'>Nuestro crecimiento se basa en la búsqueda de tecnología innovadora que permita la producción masiva de energía limpia y sostenible, lo que representa uno de los grandes desafios de nuestro tiempo.

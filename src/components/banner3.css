@@ -1,26 +1,23 @@
 .bg-pic3 {
     position: relative;
-    /*height: 100vh;*/
     width: 100%;
-    /*opacity: hidden;*/
-    padding-bottom:9vh;
-    padding-top: 5vh;
     overflow: hidden;
     background-image:linear-gradient(to bottom, rgba(233, 233, 233, .9), rgba(239, 239, 239, .9), rgba(255, 255, 255, .9)),
     url('images/b&w.jpg');
     background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 
 .bg-pic3 h1 {
-    padding-top: 70px;
     padding-bottom: 50px;
     text-align: center;
     font-size: 45px;
     font-weight: 400;
     color: #414141;
     font-style: bold;
-    text-decoration: underline; /* no me sale bien */
+    text-decoration: underline;
 }
 
 .rows{
@@ -83,14 +80,11 @@
 }
 
 @media only screen and (max-width: 790px){
-  .bg-pic3{
-    height: 130vh
+  .bg-pic3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
-  .bg-pic3 h1{
-    padding-top: 35px;
-    padding-bottom: 14px;
 
-  }
   .rows2{
     display: block;
     height: auto
@@ -103,6 +97,7 @@
   .mainText{
     height: 4vh;
   }
+
   .backgroundcolor{
    background-color: rgba(107, 103, 103, 5%);
    border-radius: 4px;

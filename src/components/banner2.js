@@ -17,7 +17,7 @@ export default function HeaderTwo() {
           <div className="box2">
             <div className="bannertext2">
               <h1>
-               Sabel Green desarrolla, gestiona e invierte en activos de energías renovables en Europa Latinoamérica
+               Sabel Green desarrolla, gestiona e invierte en activos de energías renovables en Europa, Latinoamérica y
                África desde la originación hasta la fase operativa. Nuestra estrategia permite minimizar los riesgos
                asociados al terreno, el desarrollo y la comercialización de los activos, maximizando el valor y la
                rentabilidad para los inversores. Nuestro modelo de negocio se basa en:
@@ -29,8 +29,8 @@ export default function HeaderTwo() {
                 <Card.Img variant="top" src={tower} alt='cellphone tower' />
                 <Card.Body>
                   <Card.Text className='card-text2 '>
-                    Ánalisis e identificación de puntos de conexión no evidentes, considerando las distintas
-                    oportunidades disponibles en cada locaclización </Card.Text>
+                    Ánalisis e identificación de puntos de conexión no evidentes
+                  </Card.Text>
                 </Card.Body>
               </Card>
 

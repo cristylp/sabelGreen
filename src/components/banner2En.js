@@ -17,8 +17,8 @@ export default function HeaderTwoEn() {
           <div className="box2">
             <div className="bannertext2">
               <h1>
-               Sabel Green develops, manages and invests in renewable energy assets in Europe Latin America
-               Africa from origination to operational phase. Our strategy allows us to minimize risks
+               Sabel Green develops, manages and invests in renewable energy assets in Europe, Latin America
+               and Africa from origination to operational phase. Our strategy allows us to minimize risks
                associated with the land, development and commercialization of assets, maximizing the value and
                profitability for investors. Our business model is based on:
               </h1>
@@ -29,8 +29,7 @@ export default function HeaderTwoEn() {
                 <Card.Img variant="top" src={tower} alt='cellphone tower' />
                 <Card.Body>
                   <Card.Text className='card-text2 '>
-                    Analysis and identification of non-obvious connection points, considering the different
-                    opportunities available at each location
+                    Analysis and identification of non-obvious connection points
                   </Card.Text>
                 </Card.Body>
               </Card>

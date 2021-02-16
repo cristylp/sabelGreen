@@ -1,5 +1,14 @@
 .bigpic-5{
   background-color: rgba(23, 63, 53, 7%);
-   height:70vh;
-  padding-top:2vh;
+   /*height:70vh;*/
+  padding-top:100px;
+  padding-bottom: 100px;
+}
+
+
+@media only screen and (max-width: 845px){
+  .bigpic-4{
+    padding-top: 80px;
+    padding-bottom:80px;
+  }
 }
