@@ -1,0 +1,32 @@
+.subbanner-pic {
+    background-image:linear-gradient(to bottom, rgb(138 136 136 / 0.82), rgb(138 136 136 / 0.72), rgb(138 136 136 / 0.72)),
+    url('images/subbanerpic.jpg');
+    height:35vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subbanner-text {
+    text-align: left;
+    color: #ffffff;
+    font-style: bold;
+    text-shadow: 2px 2px 4px #0000003b;
+    line-height: 1.4;
+    font-weight: 300;
+    text-align: center;
+}
+@media only screen and (max-width: 1136px){}
+
+@media only screen and (max-width: 768px){
+  #container-subbanner{
+    background-color: transparent;
+  }
+}
+
+

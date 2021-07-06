@@ -1,0 +1,60 @@
+.sabel-box{
+  background-color: #F9F7F2;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.cards-sabel {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.cards-sabel-2 {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.sabel-card {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 1136px){
+  .cards-sabel {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  .cards-sabel-2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .cards-sabel {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  .cards-sabel-2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+}

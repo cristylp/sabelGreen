@@ -1,88 +1,44 @@
-.boxseven{
-  height: 80vh;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100vw;
-  overflow: hidden;
+.mapsolar {
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    overflow: hidden;
+    background: black;
+    position: relative;
+    align-items: center;
 }
 
-.boxseven h1 {
-    padding-bottom: 30px;
-    padding-right: 15px;
-    text-align: left;
-    font-size: 24.5px;
-    font-weight: 400;
-    color: #414141;
+.map{
+  position: absolute;
+  bottom: 0;
+}
+
+.maptitle{
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1136px){
+  .mapsolar {
+    height: 35vh;
+  }
+}
+
+@media only screen and (max-width: 428px){
+  .maptitle {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: auto;
     text-align: center;
-}
-
-
-.second{
-  height:75vh;
-  margin-top: 5vh;
-  object-position: center;
-}
-
-.mapsolar{
-  height: 60vh;
-  width:1000px;
-  height:447px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media only screen and (max-width: 1405px){
-
-  .boxseven h1 {
-    text-align: center;
-    padding-bottom: 10vh;
+    margin: auto;
+    bottom: 10px;
+    font-weight: 200;
   }
 }
-
-@media only screen and (max-width: 1020px){
-  .boxseven h1 {
-    font-size: 18px
-  }
-}
-
-@media only screen and (max-width: 1015px){
-  .mapsolar{
-    height: 51%;
-    width: 87%;
-  }
-}
-
-@media only screen and (max-width: 875px){
-  .mapsolar{
-      height: 46%;
-      width: 87%;
-  }
-}
-
-
-@media only screen and (max-width: 845px){
-  .boxseven h1 {
-    font-size: 19px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 70px;
-    font-weight: 500;
-
-  }
-}
-
-@media only screen and (max-width: 685px){
-  .mapsolar{
-      height: 38%;
-      width: 87%;
-  }
-}
-
-@media only screen and (max-width: 537px){
-  .mapsolar{
-      height: 33%;
-      width: 87%;
-  }
-}
-
