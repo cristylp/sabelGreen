@@ -1,0 +1,134 @@
+#areas{
+  width: 100vw;
+  overflow: hidden;
+}
+.title-desarrollo{
+  display: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #F9F7F2;
+  margin-bottom: 0;
+}
+
+.accordion {
+    max-width: 100vw;
+    background: rgba(0, 0, 0, 0.10);
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    position: relative;
+  }
+.accordion-title{
+  position: absolute;
+    z-index: 1;
+    top: 64%;
+    left: 30%;
+    color: white
+}
+
+.accordion:hover .accordion-title{
+  display: none;
+}
+
+.box {
+    position: relative;
+    height: 100%;
+    flex: 1;
+    background-position: left;
+    background-size: cover;
+    transition: .7s;
+}
+.box:hover{
+    flex: 7;
+    height: 100%;
+}
+
+.title-accordion{
+  width: 52%;
+  font-size: 30px;
+  text-align: inherit;
+  margin-left: 18px;
+  margin-top: 30px;
+  border-left: 3px #173F35 solid;
+  padding-left: 20px;
+  color: white;
+}
+.a1 {
+    background-image: linear-gradient( rgb(0 0 0 / 45%), rgb(0 0 0 / 45%) ),url('images/ceiling.jpg');
+}
+.a2 {
+    background-image:linear-gradient( rgb(0 0 0 / 45%), rgb(0 0 0 / 45%) ), url('images/picizq_SabelGreen.jpg')
+}
+.a3 {
+    background-image:linear-gradient( rgb(0 0 0 / 45%), rgb(0 0 0 / 45%) ), url('images/solarpanel_contactform.jpg');
+    color: #fff;
+}
+.a4 {
+    background-image:linear-gradient( rgb(0 0 0 / 45%), rgb(0 0 0 / 45%) ), url('images/ceiling2.jpg');
+    color: #fff;
+}
+
+
+.text {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    padding: 10px;
+    color: white;
+}
+.box:hover .text{
+    opacity:1;
+}
+
+@media only screen and (max-width: 1136px){
+  .accordion {
+    max-width: 100vw;
+    background: rgba(0, 0, 0, 0.10);
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 800px){
+    .title-desarrollo{
+      display: block;
+      text-align: center;
+    }
+    .accordion-title{
+      display: none;
+    }
+    body{
+        margin: 0;
+    }
+    .accordion {
+        flex-direction: column;
+        height: 700px;
+        box-shadow: none;
+    }
+    .box {
+        box-shadow: none;
+    }
+    .box:hover {
+        flex: 7;
+    }
+}
+
+@media only screen and (max-width: 428px){
+  .title-accordion {
+    width: 52%;
+    font-size: 20px;
+    text-align: inherit;
+    margin-left: 18px;
+    margin-top: 30px;
+    border-left: 3px #173F35 solid;
+    padding-left: 20px;
+    color: white;
+  }
+
+}
+
+

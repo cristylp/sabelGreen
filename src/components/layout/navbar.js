@@ -87,7 +87,7 @@ myFunction(x) {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="cards"
+                  element="sabel"
                   offset={-120}
                 >
                   <a className="nav-link" href="#about">

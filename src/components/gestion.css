@@ -1,0 +1,45 @@
+#gestion{
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.images-gestion{
+  width: 100%;
+  margin: auto;
+  height: 40vh;
+  object-fit: cover;
+  display: flex;
+}
+
+.images-gestion img{
+  width: 100%;
+  object-fit: cover;
+  margin-top: 60px;
+}
+
+#cards-gestion{
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#cards-gestion-2{
+  justify-content: center;
+}
+
+@media only screen and (max-width: 428px){
+  #cards-gestion {
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #sabel-card-gestion{
+    width: 100%;
+  }
+  #sabel-card-gestion-middle{
+    width: 100%;
+    margin-top: 100px;
+  }
+}

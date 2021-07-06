@@ -1,18 +1,16 @@
 import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import "./index.css"
 // import Languages from "../components/layout/languages"
 import Navbar from "../components/layout/navbar"
 import Header from "../components/banner"
-import Cards from "../components/icons"
-import HeaderTwo from "../components/banner2"
-import HeaderTree from "../components/banner3"
-import HeaderFour from "../components/banner4"
-import HeaderFive from "../components/banner5"
-import CardsTwo from "../components/icons2"
-import HeaderSix from "../components/banner6"
-import Contactform from "../components/contactform"
+import Sabel from "../components/sabel"
+import Areas from "../components/desarrollo"
+import Gestion from "../components/gestion"
+import Optimizacion from "../components/optimizacion"
+import Subbaner from "../components/subbaner"
 import MapSolar from "../components/mapsolar"
+import Contactform from "../components/contactform"
 import Footer from "../components/layout/footer"
 
 
@@ -25,21 +23,17 @@ export default function Home(){
 
         <Header />
 
-        <Cards />
+        <Sabel />
 
-        <HeaderTwo />
+        <Areas/>
 
-        <HeaderTree />
+        <Gestion />
 
-        <HeaderFour />
+        <Subbaner/>
 
-        <HeaderFive />
+        <Optimizacion/>
 
-        <HeaderSix />
-
-        <CardsTwo />
-
-        <MapSolar />
+        <MapSolar/>
 
         <Contactform/>
 
